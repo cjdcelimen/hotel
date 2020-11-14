@@ -1,10 +1,10 @@
 import React from 'react'
+import Hero from '../components/Hero'
 
 const Error = () => {
     return (
-        <div>
-            <h1>Error</h1>
-        </div>
+        // @ts-ignore
+        <Hero />
     )
 }
 

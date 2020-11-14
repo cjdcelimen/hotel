@@ -1,10 +1,10 @@
 import React from 'react'
+import Hero from '../components/Hero'
 
 const Rooms = () => {
     return (
-        <div>
-            < h1>Rooms</h1>
-        </div>
+        // @ts-ignore
+        <Hero hero='roomsHero' />
     )
 }
 
